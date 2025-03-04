@@ -8,7 +8,7 @@
    
    insert(X, Set) :- Set = single(X).
    union(Set1, SetUnion) :- implements_protocol(Set1, set), Set1 = SetUnion.
-   product(Set, Product) :- Set = Product.
+   product(Set, Product) :- Set = Product. 
    members([]).
 :- end_object.
 
@@ -22,7 +22,7 @@
    product(Set, SetProduct) :-
        self(Self), SetProduct = product(Self, Set).
    members(Xs) :-
-       findall(X, ::member(X), Xs). 
+       findall(X, ::member(X), Xs).
 :- end_category.
 
 :- object(single(_S1_), imports(default_set_behaviour), implements(set)).
