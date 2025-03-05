@@ -5,6 +5,6 @@
         logtalk_load('tests/graph', [hook(lgtunit)]),
         logtalk_load('tests/topology', [hook(lgtunit)]),
         set_tests::run,
-        graph_tests::run
+        graph_tests::run,
         topology_tests::run
 )).
