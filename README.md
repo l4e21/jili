@@ -1,7 +1,7 @@
 
-# Principled Symbolic Mathematics in the Declarative-OOP style
+# Principled Mathematics in the Relational-Object style
 
-Tired of type theory? Hate the opacity of ADTs and closures? Want to learn sets the relational/object-oriented way, in the same way the best mathematics professors in the world *actually* teach it? We do too!
+Tired of type theory? Hate the opacity, and inflexibility, of ADTs and closures? Want to understand sets the relational/object-oriented way, in the same way the best mathematics professors in the world *actually* teach it-- from the ground up? We do too!
 
 To use this library in another project, check out 
 
